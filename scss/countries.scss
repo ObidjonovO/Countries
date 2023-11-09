@@ -122,6 +122,9 @@
   .country_information {
     display: flex;
   }
+  main {
+    padding: 0 0 65px 0;
+  }
 }
 @media screen and (max-width: 600px) {
   .country_left {
@@ -146,14 +149,17 @@
     flex-wrap: wrap;
   }
 }
+main {
+  padding: 0 0 65px 0;
+}
 
 @media screen and (max-width: 380px) {
   main {
-    padding: 0 28px !important;
+    padding: 0 28px 65px 28px !important;
   }
 }
 @media screen and (max-width: 350px) {
   main {
-    padding: 0 10px !important;
+    padding: 0 10px 65px 10px !important;
   }
 }
